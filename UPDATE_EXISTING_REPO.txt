@@ -1,0 +1,15 @@
+Your repository: https://github.com/RiftZealot/Rift-Draft
+
+Update exactly three files:
+1. https://github.com/RiftZealot/Rift-Draft/blob/main/site/index.html
+2. https://github.com/RiftZealot/Rift-Draft/blob/main/scripts/sync_data.py
+3. https://github.com/RiftZealot/Rift-Draft/blob/main/.github/workflows/deploy.yml
+
+Click the pencil/Edit icon on each page, replace the contents with the matching file from this package, and commit changes directly to main. You can also use GitHub's file upload feature to replace files, but do not accidentally add an extra enclosing folder. The workflow path MUST stay exactly .github/workflows/deploy.yml.
+
+Then open https://github.com/RiftZealot/Rift-Draft/actions and run 'Publish Rift Draft and refresh stats'. If the old and new workflow names appear, select the newest one.
+
+After success: https://riftzealot.github.io/Rift-Draft/
+
+Open Data health to check patch status for Top, Jungle, Mid, Bot, Support.
+If any role still shows 'Not published', expand that role's diagnostics and inspect the workflow logs. This distinguishes upstream missing files from parsing errors.
